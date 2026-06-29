@@ -7,13 +7,23 @@
 /.angular/
 .angular/
 
+# Byte-compiled / optimized / DLL files
+/__pycache__/
+*.pyc
+*$py.class
+venv/
+# C extensions
+*.so
+
 # Node modules and dependency files
 /node_modules/
 /package-lock.json
 /yarn.lock
 
 # Environment files
-/.env
+BackEnd/.env
+.env/
+/__pycache__/
 
 # Angular CLI and build artefacts
 /.angular-cli.json
