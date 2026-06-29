@@ -25,7 +25,6 @@ SECRET_KEY = 'django-insecure-r*9*#dq5^qs6mjs!htev=l5r&hp&(%6af9ptqgv+s83ck9li3)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['khiembuiblog.onrender.com','127.0.0.1']
 
 
 # Application definition
@@ -70,15 +69,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'BackEnd.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
 
 
 # Password validation
